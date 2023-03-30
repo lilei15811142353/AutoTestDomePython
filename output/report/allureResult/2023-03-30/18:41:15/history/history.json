@@ -1,0 +1,22 @@
+{
+  "167f808980cb0e9d31e432ba244eb02b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89eda01cbb307c0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1680172878354,
+        "stop" : 1680172887892,
+        "duration" : 9538
+      }
+    } ]
+  }
+}

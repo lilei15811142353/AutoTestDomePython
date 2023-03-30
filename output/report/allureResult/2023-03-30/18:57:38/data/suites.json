@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_dome",
+      "children" : [ {
+        "name" : "Test_pet_case",
+        "children" : [ {
+          "name" : "执行用例",
+          "uid" : "b850cbc02158cba2",
+          "parentUid" : "8543ffcc6851d522ba6240f5875db120",
+          "status" : "broken",
+          "time" : {
+            "start" : 1680173859938,
+            "stop" : 1680173870870,
+            "duration" : 10932
+          },
+          "flaky" : false,
+          "parameters" : [ "'/updateUserInfo'", "{'tel': 11111111111}" ]
+        } ],
+        "uid" : "8543ffcc6851d522ba6240f5875db120"
+      } ],
+      "uid" : "19c3c24d9e0121607768fd98182be9ee"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ],
+  "name" : "suites"
+}

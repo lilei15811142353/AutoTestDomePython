@@ -1,0 +1,21 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "执行用例",
+    "children" : [ {
+      "name" : "执行用例",
+      "uid" : "fd9835b56f4f2584",
+      "parentUid" : "0e67ed9570869303412a42db40a78d72",
+      "status" : "broken",
+      "time" : {
+        "start" : 1680173228993,
+        "stop" : 1680173238406,
+        "duration" : 9413
+      },
+      "flaky" : false,
+      "parameters" : [ "'/updateUserInfo'", "{'tel': 11111111111}" ]
+    } ],
+    "uid" : "0e67ed9570869303412a42db40a78d72"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'NoneType' object is not subscriptable",
+      "children" : [ {
+        "name" : "执行用例",
+        "uid" : "89eda01cbb307c0",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680172878354,
+          "stop" : 1680172887892,
+          "duration" : 9538
+        },
+        "flaky" : false,
+        "parameters" : [ "'/updataUserInfo'", "{'tel': 11111111111}" ]
+      } ],
+      "uid" : "86a928d47f47009c564bd8e345a40463"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

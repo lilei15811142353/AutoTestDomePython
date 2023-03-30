@@ -1,0 +1,11 @@
+[ {
+  "uid" : "390708834ce3745f",
+  "name" : "执行用例",
+  "time" : {
+    "start" : 1680172724883,
+    "stop" : 1680172726418,
+    "duration" : 1535
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

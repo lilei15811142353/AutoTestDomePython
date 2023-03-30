@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "children" : [ {
+        "name" : "执行用例",
+        "uid" : "87cc3c8601ea4551",
+        "parentUid" : "e8630c95df761f7ee33ce490fa216c87",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680173698183,
+          "stop" : 1680173702815,
+          "duration" : 4632
+        },
+        "flaky" : false,
+        "parameters" : [ "'/updateUserInfo'", "{'tel': 11111111111}" ]
+      } ],
+      "uid" : "e8630c95df761f7ee33ce490fa216c87"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

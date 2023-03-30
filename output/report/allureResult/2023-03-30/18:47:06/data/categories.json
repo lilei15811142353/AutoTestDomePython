@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: can only concatenate str (not \"int\") to str",
+      "children" : [ {
+        "name" : "执行用例",
+        "uid" : "fd9835b56f4f2584",
+        "parentUid" : "e055865276aa8c01ebf150c81e5da6eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680173228993,
+          "stop" : 1680173238406,
+          "duration" : 9413
+        },
+        "flaky" : false,
+        "parameters" : [ "'/updateUserInfo'", "{'tel': 11111111111}" ]
+      } ],
+      "uid" : "e055865276aa8c01ebf150c81e5da6eb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,18 @@
+LarkRobot:
+  path:
+apiurl:
+  url: http://8.140.20.209:8877
+database:
+  charset: utf8
+  host:
+  passwd:
+  port:
+  user:
+headers:
+  Content-Type: "application/json"
+redis:
+  decode_responses:
+  host:
+  password:
+  port:
+  username:

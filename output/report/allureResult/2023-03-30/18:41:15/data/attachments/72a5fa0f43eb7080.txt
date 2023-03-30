@@ -1,0 +1,5 @@
+INFO     root:log.py:37 请求参数：{'tel': 11111111111}
+INFO     root:log.py:37 请求信息头：{'Content-Type': 'application/json'}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 8.140.20.209:8001
+INFO     root:log.py:37 ------------TEST RESULT-------------
+INFO     root:log.py:37 reponse_dataNone

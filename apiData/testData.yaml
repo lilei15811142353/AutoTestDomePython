@@ -1,0 +1,4 @@
+updataUserInfo:
+  path: "/updateUserInfo"
+  reqData:
+    tel: 11111111111

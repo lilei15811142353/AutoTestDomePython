@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_case.test_dome",
+    "children" : [ {
+      "name" : "执行用例",
+      "uid" : "390708834ce3745f",
+      "parentUid" : "0ba72c70d872da84c88e7c14a92badf8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1680172724883,
+        "stop" : 1680172726418,
+        "duration" : 1535
+      },
+      "flaky" : false,
+      "parameters" : [ "'/updataUserInfo'", "{'tel': 11111111111}" ]
+    } ],
+    "uid" : "test_case.test_dome"
+  } ],
+  "name" : "packages"
+}

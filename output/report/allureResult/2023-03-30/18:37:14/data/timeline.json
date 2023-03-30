@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "localhost",
+    "children" : [ {
+      "name" : "38579-Thread-2",
+      "children" : [ {
+        "name" : "执行用例",
+        "uid" : "d49cc56721f05cac",
+        "parentUid" : "5bd871b7fcb02ad0fc9d32820c81ffa9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680172634951,
+          "stop" : 1680172634951,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "'/updataUserInfo'", "{'tel': 11111111111}" ]
+      } ],
+      "uid" : "5bd871b7fcb02ad0fc9d32820c81ffa9"
+    } ],
+    "uid" : "be30f600e0434356d35178c8efd2dc81"
+  } ],
+  "name" : "timeline"
+}
