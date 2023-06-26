@@ -16,8 +16,10 @@ import datetime
 
 def generate_report(case_name):
     path = os.getcwd()  # 项目APi路径
+    log.logger.info(path)
     nowData = DateTimeTool().get_now_date()
-    nowTime = DateTimeTool().get_now_secondTime()
+    nowTime = DateTimeTool().get_now_secondTime().replace(":","-")
+
 
     tempath = os.path.join(path, "output/report/temporaryAllureFile/{}/{}".format(nowData, nowTime))  # 报告临时存放文件
     log.logger.info('临时文件存放路径：' + tempath)
