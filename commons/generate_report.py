@@ -21,13 +21,13 @@ def generate_report(case_name):
     nowTime = DateTimeTool().get_now_secondTime().replace(":","-")
 
 
-    tempath = os.path.join(path, "output/report/temporaryAllureFile/{}/{}".format(nowData, nowTime))  # 报告临时存放文件
+    tempath = os.path.join(path, r"output/report/temporaryAllureFile/{}/{}".format(nowData, nowTime))  # 报告临时存放文件
     log.logger.info('临时文件存放路径：' + tempath)
 
-    reportpath = os.path.join(path, "output/report/allureResult/{}/{}".format(nowData, nowTime))  # 报告打开路径
+    reportpath = os.path.join(path, r"output/report/allureResult/{}/{}".format(nowData, nowTime))  # 报告打开路径
     log.logger.info('报告文件：：' + reportpath)
 
-    Casepath = os.path.join(path, "test_case/{}.py".format(case_name))  # 测试集合路径
+    Casepath = os.path.join(path, r"test_case/{}.py".format(case_name))  # 测试集合路径
     log.logger.info('测试用例地址：' + Casepath)
 
     # os.system('rm -rf {}/reports/'.format(path))
