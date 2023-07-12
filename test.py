@@ -1,3 +1,3 @@
-from commons.sqldb import *
+import socket
 
-mysqldb().test()
+print(socket.gethostbyname(socket.getfqdn(socket.gethostname())))

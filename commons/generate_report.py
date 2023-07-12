@@ -10,6 +10,7 @@ from commons.larkRobotMsg import *
 from commons.operationProcess import *
 from commons.dateTimeTool import *
 from commons.dirTool import *
+from commons.getOutterIP import *
 
 
 
@@ -38,7 +39,4 @@ def generate_report(case_name):
 
     pytest.main([Casepath, "-s", "--alluredir", tempath])  # 运行 test_case下所有测试用例
     os.system(f'allure generate {tempath} -o {reportpath} -clean')
-    os.system("allure open {} -h 0.0.0.0 -p 65535 &".format(reportpath))
-
-if __name__ == '__main__':
-    generate_report('test_dame')
+    os.system("allure open {} -h 127.0.0.1 -p 65535 &".format(reportpath))
