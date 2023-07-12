@@ -7,13 +7,8 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
 
-import pytest
+
 from flask import Flask,request
-from commons.larkRobotMsg import *
-from commons.editorFile import *
-from commons.operationProcess import *
-from commons.getOutterIP import *
-import datetime
 from commons.generate_report import *
 
 app = Flask(__name__)
