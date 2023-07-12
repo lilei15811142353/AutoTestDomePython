@@ -51,3 +51,10 @@ def update_yaml(proj_path,filePathName,fileName,key1=None,key2=None,key3=None,va
     with open(yamlname_read, 'w', encoding='utf-8') as f:
         yaml.safe_dump(data, f)
         f.close()
+
+def read_yaml_new(filePathName,fileName):
+    yamlname_read = os.path.join(filePathName, fileName)
+    with open(yamlname_read,'r',encoding='utf-8') as file:
+        data = file.read()
+        result = yaml.load(data,Loader=yaml.FullLoader)
+        return result

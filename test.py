@@ -1,2 +1,3 @@
-a = {"tel":11111111}
-print(a['tel'])
+from commons.sqldb import *
+
+mysqldb().test()

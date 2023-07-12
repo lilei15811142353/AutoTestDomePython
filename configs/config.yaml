@@ -1,5 +1,5 @@
 LarkRobot:
-  path:
+  path: https://open.feishu.cn/open-apis/bot/v2/hook/44a8941f-fb83-4dde-8c83-6d4c076e9581
 apiurl:
   url: http://8.140.20.209:8877
 database:

@@ -19,8 +19,12 @@ from commons.dirTool import *
 
 class Test_pet_case:
     def setup_method(self):
-        self.headers = read_yaml(root_path,'./configs', 'config.yaml')['headers']
-        self.apiurl = read_yaml(root_path,'configs', 'config.yaml')['apiurl']['url']
+        self.headers = read_yaml_new(config_path,'config.yaml')['headers']
+        self.apiurl = read_yaml_new(config_path,'config.yaml')['apiurl']['url']
+
+
+        # self.headers = read_yaml(root_path,'./configs', 'config.yaml')['headers']
+        # self.apiurl = read_yaml(root_path,'configs', 'config.yaml')['apiurl']['url']
 
 
     # @pytest.fixture()
@@ -34,8 +38,10 @@ class Test_pet_case:
     @allure.story('执行用例')
     @allure.title('执行用例')
     @pytest.mark.run(order=1)
-    @pytest.mark.parametrize('path',[read_yaml(os.getcwd(),'apiData', 'testData.yaml')['updataUserInfo']['path']])
-    @pytest.mark.parametrize('reqData',[read_yaml(os.getcwd(),'apiData','testData.yaml')['updataUserInfo']['reqData']])
+    # @pytest.mark.parametrize('path',[read_yaml(os.getcwd(),'apiData', 'testData.yaml')['updataUserInfo']['path']])
+    # @pytest.mark.parametrize('reqData',[read_yaml(os.getcwd(),'apiData','testData.yaml')['updataUserInfo']['reqData']])
+    @pytest.mark.parametrize('path',[read_yaml_new(data_path,'testData.yaml')['updataUserInfo']['path']])
+    @pytest.mark.parametrize('reqData', [read_yaml_new(data_path,'testData.yaml')['updataUserInfo']['reqData']])
     def test_creatPet(self,path,reqData):
         # log.logger.info("tel:" + str(dict(reqData)['tel']))
         url = self.apiurl + path + "?tel=" + str(dict(reqData)['tel'])
