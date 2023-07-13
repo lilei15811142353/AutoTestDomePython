@@ -7,10 +7,8 @@ sys.path.append(rootPath)
 
 import pytest
 from commons.larkRobotMsg import *
-from commons.operationProcess import *
 from commons.dateTimeTool import *
 from commons.dirTool import *
-from commons.getOutterIP import *
 
 
 
