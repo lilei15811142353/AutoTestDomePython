@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6d4c3aa-9011-4c9e-b0a2-bca6a1b9e9bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="51ce5f1d-5e12-4c13-80c6-8466ca15417e" />
+  <component name="ProjectId" id="2M1pWPZ78eSSWiySnok5aVZ9pEJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="pyAutoTest" is-module-sdk="true">
+        <envs>
+          <env key="OLDPWD" value="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/lilei/Documents/allure-2.7.0/bin" />
+        </envs>
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="pyAutoTest" />
+        <option name="myEnvs">
+          <map>
+            <entry key="OLDPWD" value="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/lilei/Documents/allure-2.7.0/bin" />
+          </map>
+        </option>
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/logs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_case" />
+      <recent name="$PROJECT_DIR$/test_case/pets" />
+      <recent name="$PROJECT_DIR$/test_case/point" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.getOutterIP">
+    <configuration name="generate_report" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commons/generate_report.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getOutterIP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commons/getOutterIP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="larkRobotMsg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commons/larkRobotMsg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="OLDPWD" value="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$USER_HOME$/Documents/allure-2.7.0/bin" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.generate_report" />
+      <item itemvalue="Python.larkRobotMsg" />
+      <item itemvalue="Python.getOutterIP" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.getOutterIP" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.generate_report" />
+        <item itemvalue="Python.larkRobotMsg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6d4c3aa-9011-4c9e-b0a2-bca6a1b9e9bb" name="Default Changelist" comment="" />
+      <created>1676944974003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676944974003</updated>
+      <workItem from="1676945139868" duration="12651000" />
+      <workItem from="1676972432771" duration="709000" />
+      <workItem from="1676973215523" duration="308000" />
+      <workItem from="1676973652353" duration="165000" />
+      <workItem from="1676976168113" duration="156000" />
+      <workItem from="1676976676543" duration="46000" />
+      <workItem from="1676976733614" duration="489000" />
+      <workItem from="1676977236266" duration="359000" />
+      <workItem from="1676977629468" duration="406000" />
+      <workItem from="1676978051642" duration="123000" />
+      <workItem from="1676978230634" duration="435000" />
+      <workItem from="1676979251926" duration="13448000" />
+      <workItem from="1677053380827" duration="9644000" />
+      <workItem from="1677122989294" duration="2406000" />
+      <workItem from="1677131146991" duration="525000" />
+      <workItem from="1677131699809" duration="9155000" />
+      <workItem from="1677464093767" duration="13277000" />
+      <workItem from="1677582394189" duration="10876000" />
+      <workItem from="1677828142566" duration="10979000" />
+      <workItem from="1678373290384" duration="80000" />
+      <workItem from="1678373658652" duration="142000" />
+      <workItem from="1680169298074" duration="10000" />
+      <workItem from="1680169807789" duration="5564000" />
+      <workItem from="1684303031685" duration="370000" />
+      <workItem from="1684393521109" duration="567000" />
+      <workItem from="1685084196940" duration="570000" />
+      <workItem from="1686192176303" duration="37000" />
+      <workItem from="1687762691506" duration="2333000" />
+      <workItem from="1687765155119" duration="119000" />
+      <workItem from="1689126709145" duration="6433000" />
+      <workItem from="1689134314188" duration="6262000" />
+      <workItem from="1689219532793" duration="578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="205" y="114" key="DiffContextDialog" timestamp="1689147958765">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="205" y="114" key="DiffContextDialog/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689147958765" />
+    <state width="2006" height="369" key="GridCell.Tab.0.bottom" timestamp="1689150793635">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="369" key="GridCell.Tab.0.bottom/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689150793635" />
+    <state width="2006" height="369" key="GridCell.Tab.0.center" timestamp="1689150793634">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="369" key="GridCell.Tab.0.center/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689150793634" />
+    <state width="2006" height="369" key="GridCell.Tab.0.left" timestamp="1689150793634">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="369" key="GridCell.Tab.0.left/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689150793634" />
+    <state width="2006" height="369" key="GridCell.Tab.0.right" timestamp="1689150793635">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="369" key="GridCell.Tab.0.right/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689150793635" />
+    <state width="2006" height="456" key="GridCell.Tab.1.bottom" timestamp="1689134310228">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="456" key="GridCell.Tab.1.bottom/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689134310228" />
+    <state width="2006" height="456" key="GridCell.Tab.1.bottom/0.25.2048.1255/0.-1055.1920.1055@0.25.2048.1255" timestamp="1689133528054" />
+    <state width="2006" height="456" key="GridCell.Tab.1.center" timestamp="1689134310228">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="456" key="GridCell.Tab.1.center/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689134310228" />
+    <state width="2006" height="456" key="GridCell.Tab.1.center/0.25.2048.1255/0.-1055.1920.1055@0.25.2048.1255" timestamp="1689133528053" />
+    <state width="2006" height="456" key="GridCell.Tab.1.left" timestamp="1689134310227">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="456" key="GridCell.Tab.1.left/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689134310227" />
+    <state width="2006" height="456" key="GridCell.Tab.1.left/0.25.2048.1255/0.-1055.1920.1055@0.25.2048.1255" timestamp="1689133528052" />
+    <state width="2006" height="456" key="GridCell.Tab.1.right" timestamp="1689134310228">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="456" key="GridCell.Tab.1.right/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689134310228" />
+    <state width="2006" height="456" key="GridCell.Tab.1.right/0.25.2048.1255/0.-1055.1920.1055@0.25.2048.1255" timestamp="1689133528053" />
+    <state x="533" y="276" key="SettingsEditor" timestamp="1689143839708">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="533" y="276" key="SettingsEditor/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689143839708" />
+    <state x="624" y="377" key="Vcs.Push.Dialog.v2" timestamp="1689148209316">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="624" y="377" key="Vcs.Push.Dialog.v2/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689148209316" />
+    <state x="249" y="25" width="1619" height="1062" key="dock-window-1" timestamp="1689142800409">
+      <screen x="0" y="25" width="2048" height="1255" />
+    </state>
+    <state x="233" y="-1055" width="1517" height="892" key="dock-window-1/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689131741649" />
+    <state x="249" y="25" width="1619" height="1062" key="dock-window-1/0.25.2048.1255/0.-1055.1920.1055@0.25.2048.1255" timestamp="1689142800409" />
+    <state x="725" y="395" width="597" height="490" key="find.popup" timestamp="1689132692486">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="725" y="395" width="597" height="490" key="find.popup/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689132692486" />
+    <state x="777" y="357" key="git4idea.branch.GitSmartOperationDialog" timestamp="1689148030746">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="777" y="357" key="git4idea.branch.GitSmartOperationDialog/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689148030746" />
+    <state x="689" y="291" width="670" height="676" key="search.everywhere.popup" timestamp="1689133279346">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="689" y="291" width="670" height="676" key="search.everywhere.popup/0.0.2048.1280/0.-1055.1920.1055@0.0.2048.1280" timestamp="1689133279346" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_case/test_dome.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/commons/apiRequest.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/commons/generate_report.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pyAutoTest$md5Secret.coverage" NAME="md5Secret Coverage Results" MODIFIED="1676961032415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/AutoTestDome$sqldb.coverage" NAME="sqldb Coverage Results" MODIFIED="1689130772302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/AutoTestDome$test.coverage" NAME="test Coverage Results" MODIFIED="1689144656659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$operationProcess.coverage" NAME="operationProcess Coverage Results" MODIFIED="1677122650414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_for_test_dome_Test_dome_test_one.coverage" NAME="pytest for test_dome.Test_dome.test_one Coverage Results" MODIFIED="1676947832992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_for_test_dome_Test_dome_test_demo1.coverage" NAME="pytest for test_dome.Test_dome.test_demo1 Coverage Results" MODIFIED="1677139230883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/point" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_for_test_pets_Test_pet_case_test_creatPet.coverage" NAME="pytest for test_pets.Test_pet_case.test_creatPet Coverage Results" MODIFIED="1677036272964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_for_test_dome_TestDemo.coverage" NAME="pytest for test_dome.TestDemo Coverage Results" MODIFIED="1676945726725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoTestDome$manage.coverage" NAME="manage Coverage Results" MODIFIED="1689145340303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$generateReport.coverage" NAME="generateReport Coverage Results" MODIFIED="1677056805729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_for_test_pets_Test_dome_test_one.coverage" NAME="pytest for test_pets.Test_dome.test_one Coverage Results" MODIFIED="1676947904324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$tst.coverage" NAME="tst Coverage Results" MODIFIED="1677035871748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoTestDome$getOutterIP.coverage" NAME="getOutterIP Coverage Results" MODIFIED="1689145640139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_in_test_pets_py.coverage" NAME="pytest in test_pets.py Coverage Results" MODIFIED="1677037046716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$test_pets.coverage" NAME="test_pets Coverage Results" MODIFIED="1677038314578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/AutoTestDome$generate_report.coverage" NAME="generate_report Coverage Results" MODIFIED="1689143004279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$operationProcessNew.coverage" NAME="operationProcessNew Coverage Results" MODIFIED="1677121443047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_for_test_pets_Test_pet_case_test_res.coverage" NAME="pytest for test_pets.Test_pet_case.test_res Coverage Results" MODIFIED="1678073092036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pets" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_in_test_dome_py__1_.coverage" NAME="pytest in test_dome.py Coverage Results" MODIFIED="1677139581892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/point" />
+    <SUITE FILE_PATH="coverage/AutoTestDome$editorFile.coverage" NAME="editorFile Coverage Results" MODIFIED="1689130132660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_in_test_dome_py.coverage" NAME="pytest in test_dome.py Coverage Results" MODIFIED="1677123796013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$dateTimeTool.coverage" NAME="dateTimeTool Coverage Results" MODIFIED="1677669679577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_for_test_pets_Test_pet_case_test_sqlParms.coverage" NAME="pytest for test_pets.Test_pet_case.test_sqlParms Coverage Results" MODIFIED="1678072501037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pets" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$pytest_for_test_pets_Test_pet_case.coverage" NAME="pytest for test_pets.Test_pet_case Coverage Results" MODIFIED="1676947719916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/AutoTestDome$larkRobotMsg.coverage" NAME="larkRobotMsg Coverage Results" MODIFIED="1689133361602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$main.coverage" NAME="main Coverage Results" MODIFIED="1677053333637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$test.coverage" NAME="test Coverage Results" MODIFIED="1678071630240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyAutoTest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1678071942030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
