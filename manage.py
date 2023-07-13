@@ -19,7 +19,6 @@ def run_testCase():
     while run(65535)['code'] == 200:
         run(65535)
 
-
     generate_report(case_name)
 
     larkMsg = '{}脚本运行完成，测试报告地址：http://{}:65535'.format(case_name,getOutterIP())
