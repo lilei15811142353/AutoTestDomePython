@@ -1,0 +1,27 @@
+2023-07-14 19:17:05,973 - root - INFO - 端口对应的pid:['40526', '']
+2023-07-14 19:17:05,974 - root - INFO - pid数量:5
+2023-07-14 19:17:05,974 - root - INFO - pid:40526
+2023-07-14 19:17:05,974 - root - INFO - kill -s 9 40526
+2023-07-14 19:17:05,980 - root - INFO - kill 40526 success
+2023-07-14 19:17:06,038 - root - INFO - 端口对应的pid:['40586', '']
+2023-07-14 19:17:06,039 - root - INFO - pid数量:5
+2023-07-14 19:17:06,039 - root - INFO - pid:40586
+2023-07-14 19:17:06,039 - root - INFO - kill -s 9 40586
+2023-07-14 19:17:06,042 - root - INFO - kill 40586 success
+2023-07-14 19:17:06,093 - root - INFO - 端口对应的pid:['']
+2023-07-14 19:17:06,093 - root - INFO - pid数量:0
+2023-07-14 19:17:06,093 - root - INFO - pid:
+2023-07-14 19:17:06,093 - root - INFO - 未查到端口-65535进程:
+2023-07-14 19:17:06,094 - root - INFO - /Users/lilei/Desktop/AutoTestDome
+2023-07-14 19:17:06,094 - root - INFO - 临时文件存放路径：/Users/lilei/Desktop/AutoTestDome/output/report/temporaryAllureFile/2023-07-14/19-17-06
+2023-07-14 19:17:06,094 - root - INFO - 报告文件：：/Users/lilei/Desktop/AutoTestDome/output/report/allureResult/2023-07-14/19-17-06
+2023-07-14 19:17:06,094 - root - INFO - 测试用例地址：/Users/lilei/Desktop/AutoTestDome/test_case/test_dome.py
+2023-07-14 19:17:09,661 - root - INFO - 请求URL：http://8.140.20.209:8877/updateUserInfo?tel=11111111111
+2023-07-14 19:17:09,662 - root - INFO - 请求信息头：{'Content-Type': 'application/json'}
+2023-07-14 19:17:09,723 - root - INFO - 返回参数:{'code': 1, 'msg': '请检查手机号是否正确'}
+2023-07-14 19:17:09,723 - root - INFO - ------------TEST RESULT-------------
+2023-07-14 19:17:09,724 - root - INFO - reponse_data:{'code': 1, 'msg': '请检查手机号是否正确'}
+2023-07-14 19:17:11,635 - root - INFO - 请求参数：{"msg_type": "text", "content": {"msg": "zeppelin0.9\u544a\u8b66\u901a\u77e5", "text": "test_dome\u811a\u672c\u8fd0\u884c\u5b8c\u6210\uff0c\u6d4b\u8bd5\u62a5\u544a\u5730\u5740\uff1ahttp://123.125.172.124:65535"}}
+2023-07-14 19:17:11,635 - root - INFO - 请求信息头：{'Content-Type': 'application/json;charset=utf-8'}
+2023-07-14 19:17:12,068 - root - INFO - 返回参数:{'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2023-07-14 19:17:12,068 - root - INFO - 发送飞书消息。返回结果：{'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}

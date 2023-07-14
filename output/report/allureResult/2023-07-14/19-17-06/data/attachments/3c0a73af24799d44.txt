@@ -1,0 +1,7 @@
+INFO     root:log.py:37 请求URL：http://8.140.20.209:8877/updateUserInfo?tel=11111111111
+INFO     root:log.py:37 请求信息头：{'Content-Type': 'application/json'}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:7890
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:7890 "GET http://8.140.20.209:8877/updateUserInfo?tel=11111111111 HTTP/1.1" 200 90
+INFO     root:log.py:37 返回参数:{'code': 1, 'msg': '请检查手机号是否正确'}
+INFO     root:log.py:37 ------------TEST RESULT-------------
+INFO     root:log.py:37 reponse_data:{'code': 1, 'msg': '请检查手机号是否正确'}
