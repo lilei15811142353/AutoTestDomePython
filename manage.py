@@ -3,6 +3,10 @@
 #encoding:utf-8
 import os
 import sys
+import random
+from commons.operationProcess import *
+from commons.larkRobotMsg import *
+from commons.getOutterIP import *
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
@@ -29,6 +33,20 @@ def run_testCase():
         "msg":"larkMsg"
     }
     return msg
+
+
+# app = Flask(__name__)
+# @app.route("/Choosedish",methods=['GET'])
+# def Choosedish():
+#     listDish = ["鱼香肉丝","宫保鸡丁","可乐鸡翅","包子","水饺"]
+#     random_element = random.choice(listDish)
+#     # random_element = ran
+#     msg = {
+#         "code":200,
+#         "dish":random_element
+#     }
+#     return msg
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=7666,debug=True)

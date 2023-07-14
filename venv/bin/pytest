@@ -1,4 +1,4 @@
-#!/Users/lilei/Desktop/pyAutoTest/venv/bin/python
+#!/Users/lilei/Desktop/AutoTestDome/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
