@@ -13,54 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d4c3aa-9011-4c9e-b0a2-bca6a1b9e9bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/logs/2023-07-14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/attachments/3c0a73af24799d44.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/test-cases/2c0c0fc2399f7522.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/allureResult/2023-07-14/19-17-06/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/temporaryAllureFile/2023-07-14/19-17-06/2d31bbab-1679-4d14-8436-261d76a96dd7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/temporaryAllureFile/2023-07-14/19-17-06/3e175921-a638-403c-a1ef-8607ac9bb95c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/temporaryAllureFile/2023-07-14/19-17-06/76cd0bce-be92-4638-8f02-1b59cb05b06d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/temporaryAllureFile/2023-07-14/19-17-06/99cc1d35-2a5a-4622-959e-b48dda67c012-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/report/temporaryAllureFile/2023-07-14/19-17-06/ccd2119f-28e7-457b-a984-711d641e0b73-container.json" beforeDir="false" />
-    </list>
+    <list default="true" id="e6d4c3aa-9011-4c9e-b0a2-bca6a1b9e9bb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
