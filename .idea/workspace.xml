@@ -13,7 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d4c3aa-9011-4c9e-b0a2-bca6a1b9e9bb" name="Default Changelist" comment="" />
+    <list default="true" id="e6d4c3aa-9011-4c9e-b0a2-bca6a1b9e9bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,12 +235,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.generate_report" />
+      <item itemvalue="Python.getOutterIP" />
+      <item itemvalue="Python.larkRobotMsg" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.generate_report" />
-      <item itemvalue="Python.larkRobotMsg" />
-      <item itemvalue="Python.getOutterIP" />
     </list>
     <recent_temporary>
       <list>
